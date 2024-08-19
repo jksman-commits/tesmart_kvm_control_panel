@@ -40,13 +40,6 @@ The configuration file (config.json) will be created in the /config directory. M
 Open your browser and navigate to http://localhost:9090.
 Switch between the connected PCs using the web interface by clicking on the respective buttons for PC1 through PC8.
 
-### 5. Automated Builds
-This repository is linked to Docker Hub and is automatically built whenever changes are pushed to GitHub. You can also pull the pre-built image from Docker Hub:
-
-docker pull jksman/tesmart_kvm_control_panel:latest
-Contributing
-Contributions are welcome! Please follow these steps to contribute:
-
 ### Fork the repository.
 Create a new branch (git checkout -b feature-branch).
 Commit your changes (git commit -m 'Add a new feature').
